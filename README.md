@@ -1,31 +1,32 @@
-# Hospital-Emergency-Room-Dashboard.
-Excel-based analysis of Hospital Emergency Room patient data (July 2023)
-# ER Patient Analysis (July 2023)
+# Hospital Emergency Room Dashboard (2023-2024)
 
-## 📌 Overview
-Analysis of **464 ER patients** in July 2023, covering:
-- Wait times, satisfaction scores, and daily trends.
-- Admission rates, demographics, and department referrals.
+## 📌 Project Scope
+Interactive Excel dashboard analyzing **ER patient data across 2023-2024** with:
+- Monthly/yearly filtering capabilities
+- 12+ metrics including wait times, satisfaction scores, and admission rates
+- Daily trend visualizations
 
-## 🔍 Key Insights
-1. **Wait Times**: Avg. **34.7 mins** (peaked at 43.8 mins on July 8).
-2. **Satisfaction**: Avg. **4.99/10** (low: 1/10 on July 18; high: 8.2/10 on July 31).
-3. **Admissions**: **50.9% admitted** (236 patients).
-4. **Delays**: **57.5% patients delayed** (267 vs. 197 on-time).
-5. **Busiest Age Groups**: 20-29 (71 patients), 40-49 (63), 50-59 (63).
-6. **Top Departments**: General Practice (87), Orthopedics (54).
+## 🔧 Key Features
+- **Time Filters**: Toggle between years (2023/2024) and select specific months
+- **Dynamic Charts**: All visuals update automatically when filters change
+- **Multi-Dimensional Analysis**: 
+  - Patient demographics (age/gender)
+  - Department performance
+  - Admission/attendance patterns
 
-## 📂 Files
-- `Completed Excel Project.xlsx`: Contains:
-  - **Pivot Report**: Raw analysis tables.
-  - **Dashboard**: Summary charts (screenshot below).
-  - **Trend Sheets**: Daily patient/wait time/satisfaction charts.
-
+## 📂 Dataset Includes
+- **July 2023**: 464 patient records (as featured example)
+- **Full 2023 Data**: January-December
+- **2024 Data**: January-Present (ongoing)
 
 ## 💡 How to Use
-1. Open `Completed Excel Project.xlsx`.
-2. Navigate to **Dashboard** for high-level insights.
-3. Check **Pivot Report** for detailed data breakdowns.
+1. Open `Hospital_ER_Dashboard.xlsx`
+2. **Filter Data**:
+   - Select year from **dropdown in Cell B1**
+   - Choose month from **dropdown in Cell B2**
+3. Explore updated:
+   - Daily trend charts
+   - Patient metrics
+   - Department statistics
 
-## 🛠 Tools
-- Microsoft Excel (PivotTables, Charts)
+> **Tip**: Try comparing August 2023 vs. January 2024 to see seasonal patterns!
